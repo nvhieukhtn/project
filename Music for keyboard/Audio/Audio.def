@@ -1,0 +1,6 @@
+EXPORTS
+PlayAudio @1
+doMCICommandStringPlay @2
+StopAudio @3
+doMCICommandMessagePlay @4
+doMCICommandStringStop @5

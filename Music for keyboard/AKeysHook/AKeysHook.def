@@ -1,0 +1,4 @@
+EXPORTS
+_doInstallAKeyHook @1
+_doRemoveAKeyHook @2
+_getAKeySetting @3
