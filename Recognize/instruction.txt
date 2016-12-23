@@ -1,0 +1,6 @@
+Nguyễn Văn Hiếu
+1412166
+-------------------------------------Hướng dẫn sử dụng-------------------------------------
+Copy các tập ảnh *.jpg tương ứng vào các thư mục. 
+Trong mỗi thư mục có một file target.txt là nhãn của ảnh dùng để chạy chương trình Bai2.py
+Cần vào trong thư mục code để chạy chương trình
