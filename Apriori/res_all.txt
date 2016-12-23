@@ -1,0 +1,12 @@
+apple	50.0%
+beer	75.0%
+chicken	25.0%
+mango	25.0%
+milk	50.0%
+rice	50.0%
+apple,beer	37.5%
+apple,milk	0.0%
+apple,rice	25.0%
+beer,milk	37.5%
+beer,rice	50.0%
+milk,rice	25.0%

@@ -1,0 +1,5 @@
+apple	50.0%
+beer	75.0%
+milk	50.0%
+rice	50.0%
+beer,rice	50.0%
