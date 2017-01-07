@@ -50,9 +50,7 @@ LRESULT CALLBACK    WndProc(HWND, UINT, WPARAM, LPARAM);
 INT_PTR CALLBACK    About(HWND, UINT, WPARAM, LPARAM);
 INT_PTR CALLBACK    Settings(HWND, UINT, WPARAM, LPARAM);
 
-DWORD WINAPI WareHouseFirstProc(LPVOID lpParameter);
-DWORD WINAPI WareHouseSecondProc(LPVOID lpParameter);
-DWORD WINAPI WareHouseThirdProc(LPVOID lpParameter);
+DWORD WINAPI WareHouseProc(LPVOID lpParameter);
 DWORD WINAPI ObserverProc(LPVOID lpParameter);
 
 
@@ -176,11 +174,12 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 			break;
 			case IDM_START:
 			{	
-				HMENU hMenu = GetMenu(hWnd);
 				if (!isRunning)
 				{
 					isRunning = true;
+					HMENU hMenu = GetMenu(hWnd);
 					ModifyMenu(hMenu, IDM_START, MF_BYCOMMAND | MF_STRING, IDM_START, L"Stop");
+					DeleteObject(hMenu);
 					DrawMenuBar(hWnd);
 					numberOfRemainPackages = numberOfPackages;
 					InvalidateRect(hWnd, NULL, TRUE);
@@ -198,11 +197,11 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 						wareHouse[i]->count = 0;
 					ReleaseMutex(hChecker);
 					currentPackage = 0;
-					SetTimer(hWnd, IDT_TIMER_DRAW, 300, NULL);
-					SetTimer(hWnd, IDT_TIMER_MOVING, movingSpeed, NULL);
-					hWareHouseThread[0] = CreateThread(NULL, 0, WareHouseFirstProc, wareHouse[0], 0, 0);
-					hWareHouseThread[1] = CreateThread(NULL, 0, WareHouseSecondProc, wareHouse[1], 0, 0);
-					hWareHouseThread[2] = CreateThread(NULL, 0, WareHouseThirdProc, wareHouse[2], 0, 0);
+					SetTimer(hWnd, IDT_TIMER_DRAW, 100, NULL);
+					SetTimer(hWnd, IDT_TIMER_MOVING, movingSpeed / 10, NULL);
+					hWareHouseThread[0] = CreateThread(NULL, 0, WareHouseProc, wareHouse[0], 0, 0);
+					hWareHouseThread[1] = CreateThread(NULL, 0, WareHouseProc, wareHouse[1], 0, 0);
+					hWareHouseThread[2] = CreateThread(NULL, 0, WareHouseProc, wareHouse[2], 0, 0);
 					hObserver = CreateThread(NULL, 0, ObserverProc, NULL, 0, 0);
 				}
 				else
@@ -291,9 +290,14 @@ INT_PTR CALLBACK Settings(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 		TCHAR szTemp[10];
 		wsprintf(szTemp, TEXT("%d"), numberOfPackages);
 		SetWindowText(hItem, szTemp);
+		if (!isRunning)
+			EnableWindow(hItem, TRUE);			
+		else
+			EnableWindow(hItem, FALSE);
 
 		hItem = GetDlgItem(hDlg, IDC_SLIDER_SPEED);
 		SendMessage(hItem, TBM_SETPOS, TRUE, 100 - movingSpeed);
+		DeleteObject(hItem);
 		return (INT_PTR)TRUE;
 	}
 	case WM_HSCROLL:
@@ -301,6 +305,7 @@ INT_PTR CALLBACK Settings(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 		HWND hItem;
 		hItem = GetDlgItem(hDlg, IDC_SLIDER_SPEED);
 		movingSpeed = 100 - SendMessage(hItem, TBM_GETPOS, 0, 0);
+		DeleteObject(hItem);
 		SetTimer(hWndMain, IDT_TIMER_MOVING, movingSpeed, NULL);
 	}
 	break;
@@ -318,8 +323,8 @@ INT_PTR CALLBACK Settings(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 			numberOfPackages = _ttoi(szTemp);
 			
 			hItem = GetDlgItem(hDlg, IDC_SLIDER_SPEED);
-			movingSpeed = SendMessage(hItem, TBM_GETPOS, 0, 0) / 10;
-
+			movingSpeed = 100 - SendMessage(hItem, TBM_GETPOS, 0, 0);
+			DeleteObject(hItem);
 			EndDialog(hDlg, LOWORD(wParam));
 			return (INT_PTR)TRUE;
 		}
@@ -341,7 +346,7 @@ INT_PTR CALLBACK Settings(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 }
 
 
-DWORD WINAPI WareHouseFirstProc(LPVOID lpParameter)
+DWORD WINAPI WareHouseProc(LPVOID lpParameter)
 {
 	WareHouse* localWareHouse = (WareHouse*)lpParameter;
 
@@ -360,65 +365,6 @@ DWORD WINAPI WareHouseFirstProc(LPVOID lpParameter)
 			{
 				localWareHouse->count++;
 				
-				listPackages[currentPackage].arranged = true;
-				currentPackage++;
-				numberOfRemainPackages--;
-				isChecking = false;
-			}
-		}
-		ReleaseMutex(hChecker);
-	}
-	ExitThread(0);
-	return true;
-}
-
-
-DWORD WINAPI WareHouseSecondProc(LPVOID lpParameter)
-{
-	WareHouse* localWareHouse = (WareHouse*)lpParameter;
-	RECT rect = getWindowsSize();
-	int center = (rect.right - WIDTH_LINE)/2 + 5;
-	while (listPackages && numberOfRemainPackages > 0)
-	{
-
-		WaitForSingleObject(hChecker, INFINITE);
-		if (listPackages && listPackages[currentPackage].pt.x > center && !listPackages[currentPackage].arranged)
-		{
-			isChecking = true;
-			listPackages[currentPackage].color = localWareHouse->color;
-			Sleep(1000);
-			if (listPackages[currentPackage].type == localWareHouse->type)
-			{
-				localWareHouse->count++;
-				
-				listPackages[currentPackage].arranged = true;
-				currentPackage++;
-				numberOfRemainPackages--;
-				isChecking = false;
-			}
-		}
-		ReleaseMutex(hChecker);
-	}
-	ExitThread(0);
-	return true;
-}
-
-DWORD WINAPI WareHouseThirdProc(LPVOID lpParameter)
-{
-	WareHouse* localWareHouse = (WareHouse*)lpParameter;
-	RECT rect = getWindowsSize();
-	int center = (rect.right - WIDTH_LINE)/2 + 5;
-	while (listPackages && numberOfRemainPackages > 0)
-	{
-		WaitForSingleObject(hChecker, INFINITE);
-		if (listPackages && listPackages[currentPackage].pt.x > center && !listPackages[currentPackage].arranged)
-		{
-			isChecking = true;
-			listPackages[currentPackage].color = localWareHouse->color;
-			Sleep(1000);
-			if (listPackages[currentPackage].type == localWareHouse->type)
-			{
-				localWareHouse->count++;
 				listPackages[currentPackage].arranged = true;
 				currentPackage++;
 				numberOfRemainPackages--;
@@ -452,7 +398,8 @@ void release()
 	listPackages = NULL;
 	KillTimer(hWndMain, IDT_TIMER_DRAW);
 	KillTimer(hWndMain, IDT_TIMER_DRAW);
-	//InvalidateRect(hWndMain, NULL, TRUE);
+	DeleteObject(hMenu);
+	InvalidateRect(hWndMain, NULL, TRUE);
 }
 
 DWORD WINAPI ObserverProc(LPVOID lpParameter)
@@ -557,7 +504,7 @@ void drawPackage(Package package)
 	wsprintf(typeStr, L"%d", package.type + 1);
 	HDC hdc = GetDC(hWndMain);
 	HPEN hPen = CreatePen(PS_SOLID, 2, package.color);
-	SelectObject(hdc, hPen);
+	HPEN hPenOld = (HPEN)SelectObject(hdc, hPen);
 
 	RECT rect;
 	rect.left = package.pt.x;
@@ -568,21 +515,15 @@ void drawPackage(Package package)
 	Rectangle(hdc, rect.left, rect.top, rect.right, rect.bottom);
 	SetTextColor(hdc, package.color);
 	DrawText(hdc, typeStr, wcslen(typeStr), &rect, DT_CENTER | DT_VCENTER | DT_SINGLELINE);
+	SelectObject(hdc, hPenOld);
+	DeleteObject(hPen);
+	ReleaseDC(hWndMain, hdc);
 }
 
-
-void eraseOldPackage(Package package)
-{
-	RECT RefreshRect;
-	RefreshRect.left = package.pt.x - 5;
-	RefreshRect.top = package.pt.y;
-	RefreshRect.right = RefreshRect.left + BOX_SIZE + 10;
-	RefreshRect.bottom = RefreshRect.top + BOX_SIZE;
-}
 void drawPath(HDC hdc)
 {
 	HPEN hPen = CreatePen(PS_SOLID, 5, RGB(0, 0, 0));
-	SelectObject(hdc, hPen);
+	HPEN hPenOld = (HPEN)SelectObject(hdc, hPen);
 	RECT rect = getWindowsSize();
 	//left
 	MoveToEx(hdc, 0, (rect.bottom - WIDTH_LINE) / 2, NULL);
@@ -613,6 +554,8 @@ void drawPath(HDC hdc)
 	drawWareHouseFirstInfomation(hdc);
 	drawWareHouseSecondInfomation(hdc);
 	drawWareHouseThirdInfomation(hdc);
+	SelectObject(hdc, hPenOld);
+	DeleteObject(hPen);
 }
 
 int generateType()
@@ -681,17 +624,4 @@ void moveAllPackages()
 			listPackages[i].pt.y++;
 		}
 	}
-}
-
-void redrawPathArea()
-{
-	RECT windowRect = getWindowsSize();
-	RECT rectCenter;
-
-	rectCenter.left = 0;
-	rectCenter.right = windowRect.right;
-	rectCenter.top = (windowRect.bottom - WIDTH_LINE) / 2 + 2;
-	rectCenter.bottom = rectCenter.top + BOX_SIZE + 6;
-
-	InvalidateRect(hWndMain, &rectCenter, TRUE);
 }

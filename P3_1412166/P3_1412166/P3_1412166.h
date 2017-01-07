@@ -18,7 +18,6 @@ struct WareHouse
 };
 
 void drawPath(HDC hdc);
-void eraseOldPackage(Package package);
 void drawPackage(Package package);
 RECT getWindowsSize();
 int generateType();
@@ -26,6 +25,5 @@ void drawAllPackages();
 void resizeAllPackages();
 void updateAllPackages();
 void moveAllPackages();
-void redrawPathArea();
 void notify();
 void release();

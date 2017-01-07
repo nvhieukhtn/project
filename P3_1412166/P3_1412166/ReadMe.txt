@@ -16,8 +16,6 @@ Tổng : Hoàn thành 100% yêu cầu cơ bản.
 Các chức năng làm thêm : 
 	1. Cho phép thay đổi tốc độ băng truyền. 
 	2. Có thể thay đổi được kích thước cửa sổ (trước khi start) mà không ảnh hưởng đến chức năng của chương trình.
-Các phần chưa làm được: 
-	1. Chưa giải quyết được vấn đề cửa sổ bị giật khi tăng số lượng packets lên quá cao.
 ==============================================================
 Môi trường lập trình : Visual studio 2015
-Video demo : https://youtu.be/793Zkb7WKuU 
+Video demo chương trình : https://youtu.be/Ns-nx5pkG5s
