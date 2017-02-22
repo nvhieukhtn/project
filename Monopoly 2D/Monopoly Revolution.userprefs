@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Models\Question.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Models\Dice.cs" Line="37" Column="42" />
+      <File FileName="Assets\Scripts\Models\OptionEnum.cs" Line="9" Column="6" />
+      <File FileName="Assets\Scripts\Models\Player.cs" Line="40" Column="24" />
+      <File FileName="Assets\Scripts\Models\Question.cs" Line="2" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

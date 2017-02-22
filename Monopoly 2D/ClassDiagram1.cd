@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AssemblyCSharp.GameManager" Collapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQQEFAAAACAAAAAgCAAAEAEIEAAAQEAAQgAAAJAAQAA=</HashCode>
+      <FileName>Assets\Scripts\Controllers\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.InputManager" Collapsed="true">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Scripts\Controllers\InputManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.BaseBuilding">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACEAAAAAgAAAAAgAAAAAAAAAAAAAAACAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Models\BaseBuilding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.BasePlace">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAgAgAQAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Models\BasePlace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.Chance">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Models\Chance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.CommunityChest">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Models\CommunityChest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.Dice">
+    <Position X="12.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIICAAAEAABAgACAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\Dice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.EState">
+    <Position X="0.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Models\EState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.Go">
+    <Position X="9.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Models\Go.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.Jail">
+    <Position X="14.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Models\Jail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.ListQuestion" Collapsed="true">
+    <Position X="18.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAQAAAAAAAAAQAAAAAAAABAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\ListQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.Map" Collapsed="true">
+    <Position X="20.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.NormalPlace">
+    <Position X="2" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACAECAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\NormalPlace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.Park">
+    <Position X="12" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Models\Park.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.PlaceFactory" Collapsed="true">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAABAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\PlaceFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.Player">
+    <Position X="10.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQCAAAgSAAAAAEAAAAAAAAAAgAAhAAAQAABCEEgAA=</HashCode>
+      <FileName>Assets\Scripts\Models\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.Question">
+    <Position X="14.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAgBAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.Service">
+    <Position X="3" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\Service.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.Shared" Collapsed="true">
+    <Position X="20.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\Shared.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.SpecialPlace">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\SpecialPlace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.Station">
+    <Position X="3" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Models\Station.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.UnUpgradableBuilding">
+    <Position X="6.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\UnUpgradableBuilding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.UpgradableBuilding">
+    <Position X="8.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\UpgradableBuilding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.UtilityPlace">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\UtilityPlace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.BuildingViewModel" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ViewModels\BuildingViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.DiceOptionViewModel" Collapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAQAAAAAACgAAABAAAABAAAoACAEAUQAQ=</HashCode>
+      <FileName>Assets\Scripts\ViewModels\DiceOptionViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.PlaceInfomationViewModel" Collapsed="true">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAIAiIAAEAAAAEAACAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\ViewModels\PlaceInfomationViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.PlaceViewModel" Collapsed="true">
+    <Position X="18.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAACAAAEAgAAAAAAAAAAAAAAAAAQAIAACCAAA=</HashCode>
+      <FileName>Assets\Scripts\ViewModels\PlaceViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.PlayerInfomationViewModel" Collapsed="true">
+    <Position X="22" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ViewModels\PlayerInfomationViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssemblyCSharp.QuestionViewModel" Collapsed="true">
+    <Position X="18.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAQAAACQAQAAABAACAQwQAAAACgAAAIgCAgAEAAA=</HashCode>
+      <FileName>Assets\Scripts\ViewModels\QuestionViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="AssemblyCSharp.BuildingType">
+    <Position X="12.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\BuildingType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AssemblyCSharp.DiceOption">
+    <Position X="14" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAIAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\DiceOption.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AssemblyCSharp.OpportunityOptions">
+    <Position X="15.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAIAAAAAAAggAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\OpportunityOptions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AssemblyCSharp.PlaceType">
+    <Position X="17.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAgAAAAAAAAAAAIQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\PlaceType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

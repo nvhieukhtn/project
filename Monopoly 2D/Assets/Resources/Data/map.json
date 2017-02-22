@@ -1,0 +1,172 @@
+{
+"ListPlaces": [
+	{
+		"Type":"Special",
+		"Name":"Go",
+		"Color":"White",
+		"Price": 0,
+		"Describe":""
+	},
+	{
+		"Type":"Normal",
+		"Name":"TP. Hồ Chí Minh",
+		"Color":"Red",
+		"Price": 800,
+    "Describe": "Đây là thành phố lớn nhất Việt Nam \n Giá mua 800 \n Giá xây nhà 800 \n Khi chưa có nhà giá thuê 800\n Khi có nhà cấp 1 giá thuê 1600\n Khi có nhà cấp 2 giá thuê 2400\n Khi có nhà cấp 3 giá thuê 3200\n Khi có nhà cấp 4 giá thuê 4000\n"
+	},
+	{
+		"Type":"Normal",
+		"Name":"Vinh",
+		"Color":"Red",
+		"Price": 400,
+		"Describe":"Vinh là đô thị loại 1 thuộc tỉnh Nghệ An, Việt Nam\n Giá mua 400 \n Giá xây nhà 400 \n Khi chưa có nhà giá thuê 400\n Khi có nhà cấp 1 giá thuê 800\n Khi có nhà cấp 2 giá thuê 1600\n Khi có nhà cấp 3 giá thuê 2000\n Khi có nhà cấp 4 giá thuê 2400\n"
+	},
+	{
+		"Type":"Utility",
+		"Name":"Chance",
+		"Color":"White",
+		"Price": 0,
+		"Describe":""
+	},
+	{
+		"Type":"Normal",
+		"Name":"TP. Nha Trang",
+		"Color":"Green",
+		"Price": 500,
+		"Describe":"Nha Trang là một thành phố ven biển và là trung tâm chính trị, kinh tế, văn hóa, khoa học kỹ thuật và du lịch của tỉnh Khánh Hòa, Việt Nam\n Giá mua 500 \n Giá xây nhà 500 \n Khi chưa có nhà giá thuê 500\n Khi có nhà cấp 1 giá thuê 1000\n Khi có nhà cấp 2 giá thuê 1500\n Khi có nhà cấp 3 giá thuê 2000\n Khi có nhà cấp 4 giá thuê 2500\n"
+	},
+	{
+		"Type":"Normal",
+		"Name":"Hà Nội",
+		"Color":"Green",
+		"Price": 800,
+		"Describe":"Thủ đô Việt Nam \n Giá mua 800 \n Giá xây nhà 800 \n Khi chưa có nhà giá thuê 800\n Khi có nhà cấp 1 giá thuê 1600\n Khi có nhà cấp 2 giá thuê 2400\n Khi có nhà cấp 3 giá thuê 3200\n Khi có nhà cấp 4 giá thuê 4000\n"
+	},
+	{
+		"Type":"Special",
+		"Name":"Jail",
+		"Color":"White",
+		"Price": 0,
+		"Describe":""
+	},
+	{
+		"Type":"Normal",
+		"Name":"TP. Huế",
+		"Color":"Blue",
+		"Price": 600,
+		"Describe":"Đây là trung tâm về nhiều mặt của miền Trung như văn hoá, chính trị, y tế, giáo dục, du lịch, khoa học..\n Giá mua 600 \n Giá xây nhà 600 \n Khi chưa có nhà giá thuê 600\n Khi có nhà cấp 1 giá thuê 1200\n Khi có nhà cấp 2 giá thuê 1800\n Khi có nhà cấp 3 giá thuê 2400\n Khi có nhà cấp 4 giá thuê 3000\n"
+	},
+	{
+		"Type":"Normal",
+		"Name":"Tp Mỹ Tho",
+		"Color":"Blue",
+		"Price": 300,
+		"Describe":"Là tỉnh lỵ của tỉnh Tiền Giang\n Giá mua 300 \n Giá xây nhà 300 \n Khi chưa có nhà giá thuê 300\n Khi có nhà cấp 1 giá thuê 600\n Khi có nhà cấp 2 giá thuê 900\n Khi có nhà cấp 3 giá thuê 1200\n Khi có nhà cấp 4 giá thuê 1500\n"
+	},
+	{
+		"Type":"Utility",
+		"Name":"CommunityChest",
+		"Color":"White",
+		"Price": 0,
+		"Describe":""
+	},
+	{
+		"Type":"Normal",
+		"Name":"TP. Thủ Dầu Một",
+		"Color":"Cyan",
+		"Price": 600,
+		"Describe":"Thành phố Thủ Dầu Một là thành phố trực thuộc tỉnh Bình Dương, nằm trong vùng kinh tế trọng điểm phía Nam\n Giá mua 600 \n Giá xây nhà 600 \n Khi chưa có nhà giá thuê 600\n Khi có nhà cấp 1 giá thuê 1200\n Khi có nhà cấp 2 giá thuê 1800\n Khi có nhà cấp 3 giá thuê 2400\n Khi có nhà cấp 4 giá thuê 3000\n"
+	},
+	{
+		"Type":"Normal",
+		"Name":"Tp. Quy Nhơn",
+		"Color":"Cyan",
+		"Price": 300,
+		"Describe":"Quy Nhơn là thành phố ven biển miền Trung Việt Nam và là trung tâm kinh tế, chính trị, văn hóa, khoa học kỹ thuật và du lịch của tỉnh Bình Định\n Giá mua 300 \n Giá xây nhà 300 \n Khi chưa có nhà giá thuê 300\n Khi có nhà cấp 1 giá thuê 600\n Khi có nhà cấp 2 giá thuê 900\n Khi có nhà cấp 3 giá thuê 1200\n Khi có nhà cấp 4 giá thuê 1500\n"
+	},
+	{
+		"Type":"Special",
+		"Name":"Park",
+		"Color":"White",
+		"Price": 0,
+		"Describe":""
+	},
+	{
+		"Type":"Normal",
+		"Name":"TP. Cần Thơ",
+		"Color":"Grey",
+		"Price": 500,
+		"Describe":"Cần Thơ là thành phố lớn, hiện đại và phát triển nhất ở Đồng bằng sông Cửu Long, đồng thời là một đô thị loại 1, thành phố trực thuộc Trung ương, nằm bên hữu ngạn của sông Hậu \n Giá mua 500 \n Giá xây nhà 500 \n Khi chưa có nhà giá thuê 500\n Khi có nhà cấp 1 giá thuê 1000\n Khi có nhà cấp 2 giá thuê 1500\n Khi có nhà cấp 3 giá thuê 2000\n Khi có nhà cấp 4 giá thuê 2500\n"
+	},
+	{
+		"Type":"Normal",
+		"Name":"Tp Thái Nguyên",
+		"Color":"Grey",
+		"Price": 500,
+		"Describe":"Thái Nguyên là thành phố tỉnh lỵ của tỉnh Thái Nguyên, là một trong những thành phố lớn nhất ở miền Bắc, chỉ sau Hà Nội và Hải Phòng về dân số.\n Giá mua 500 \n Giá xây nhà 500 \n Khi chưa có nhà giá thuê 500\n Khi có nhà cấp 1 giá thuê 1000\n Khi có nhà cấp 2 giá thuê 1500\n Khi có nhà cấp 3 giá thuê 2000\n Khi có nhà cấp 4 giá thuê 2500\n"
+	},
+	{
+		"Type":"Utility",
+		"Name":"Chance",
+		"Color":"White",
+		"Price": 0,
+		"Describe":""
+	},
+	{
+		"Type":"Normal",
+		"Name":"TP. Vũng Tàu",
+		"Color":"Magenta",
+		"Price": 600,
+		"Describe":"Vũng Tàu là thành phố thuộc tỉnh Bà Rịa - Vũng Tàu, ở vùng Đông Nam Bộ Việt Nam. Đây là trung tâm kinh tế, tài chính, văn hóa, du lịch, giao thông - vận tải và giáo dục và là một trong những trung tâm kinh tế của vùng Đông Nam Bộ\n Giá mua 600 \n Giá xây nhà 600 \n Khi chưa có nhà giá thuê 600\n Khi có nhà cấp 1 giá thuê 1200\n Khi có nhà cấp 2 giá thuê 1800\n Khi có nhà cấp 3 giá thuê 2400\n Khi có nhà cấp 4 giá thuê 3000\n"
+	},
+	{
+		"Type":"Normal",
+		"Name":"TP. Đà Nẵng",
+		"Color":"Magenta",
+		"Price": 800,
+		"Describe":"Là trung tâm lớn về kinh tế, chính trị, văn hoá, xã hội, giáo dục và đào tạo, khoa học và công nghệ, y tế chuyên sâu của khu vực miền Trung - Tây Nguyên và cả nước.\n Giá mua 800 \n Giá xây nhà 800 \n Khi chưa có nhà giá thuê 800\n Khi có nhà cấp 1 giá thuê 1600\n Khi có nhà cấp 2 giá thuê 2400\n Khi có nhà cấp 3 giá thuê 3200\n Khi có nhà cấp 4 giá thuê 4000\n"
+	},
+	{
+		"Type":"Special",
+		"Name":"Station",
+		"Color":"White",
+		"Price": 0,
+		"Describe":""
+	},
+	{
+		"Type":"Normal",
+		"Name":"TP. Hải phòng",
+		"Color":"Yellow",
+		"Price": 800,
+		"Describe":"Hải Phòng là thành phố cảng quan trọng, trung tâm công nghiệp, cảng biển lớn nhất phía Bắc Việt Nam, đồng thời cũng là trung tâm kinh tế, văn hoá, y tế, giáo dục, khoa học, thương mại và công nghệ của Vùng duyên hải Bắc Bộ\n Giá mua 800 \n Giá xây nhà 800 \n Khi chưa có nhà giá thuê 800\n Khi có nhà cấp 1 giá thuê 1600\n Khi có nhà cấp 2 giá thuê 2400\n Khi có nhà cấp 3 giá thuê 3200\n Khi có nhà cấp 4 giá thuê 4000\n"
+	},
+	{
+		"Type":"Normal",
+		"Name":"Hội An",
+		"Color":"Yellow",
+		"Price": 300,
+		"Describe":"Là thành phố du lịch trực thuộc tỉnh Hội An\n Giá mua 300 \n Giá xây nhà 300 \n Khi chưa có nhà giá thuê 300\n Khi có nhà cấp 1 giá thuê 600\n Khi có nhà cấp 2 giá thuê 900\n Khi có nhà cấp 3 giá thuê 1200\n Khi có nhà cấp 4 giá thuê 1500\n"
+	},
+	{
+		"Type":"Utility",
+		"Name":"CommunityChest",
+		"Color":"White",
+		"Price": 0,
+		"Describe":""
+	},
+	{
+		"Type":"Normal",
+		"Name":"TP. Phan Thiết",
+		"Color":"Magenta",
+		"Price": 400,
+		"Describe":"Phan Thiết là tỉnh lỵ, trung tâm chính trị, kinh tế, văn hóa và khoa học kỹ thuật của tỉnh Bình Thuận\n Giá mua 400 \n Giá xây nhà 400 \n Khi chưa có nhà giá thuê 400\n Khi có nhà cấp 1 giá thuê 800\n Khi có nhà cấp 2 giá thuê 1600\n Khi có nhà cấp 3 giá thuê 2000\n Khi có nhà cấp 4 giá thuê 2400\n"
+	},
+	{
+		"Type":"Normal",
+		"Name":"Biên Hòa",
+		"Color":"Magenta",
+		"Price": 500,
+		"Describe":"Biên Hòa là thành phố công nghiệp và là tỉnh lỵ của tỉnh Đồng Nai,\n Giá mua 500 \n Giá xây nhà 500 \n Khi chưa có nhà giá thuê 500\n Khi có nhà cấp 1 giá thuê 1000\n Khi có nhà cấp 2 giá thuê 1500\n Khi có nhà cấp 3 giá thuê 2000\n Khi có nhà cấp 4 giá thuê 2500\n"
+	}
+	]
+}

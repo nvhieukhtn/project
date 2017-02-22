@@ -1,0 +1,493 @@
+fileFormatVersion: 2
+guid: 753e6243c7ec65f4abcd516b02eb3a08
+timeCreated: 1484635453
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: spritesheet_zero_0
+    21300002: spritesheet_zero_1
+    21300004: spritesheet_zero_2
+    21300006: spritesheet_zero_3
+    21300008: spritesheet_zero_4
+    21300010: spritesheet_zero_5
+    21300012: spritesheet_zero_6
+    21300014: spritesheet_zero_7
+    21300016: spritesheet_zero_8
+    21300018: spritesheet_zero_9
+    21300020: spritesheet_zero_10
+    21300022: spritesheet_zero_11
+    21300024: spritesheet_zero_12
+    21300026: spritesheet_zero_13
+    21300028: spritesheet_zero_14
+    21300030: spritesheet_zero_15
+    21300032: spritesheet_zero_16
+    21300034: spritesheet_zero_17
+    21300036: spritesheet_zero_18
+    21300038: spritesheet_zero_19
+    21300040: spritesheet_zero_20
+    21300042: spritesheet_zero_21
+    21300044: spritesheet_zero_22
+    21300046: spritesheet_zero_23
+    21300048: spritesheet_zero_24
+    21300050: spritesheet_zero_25
+    21300052: spritesheet_zero_26
+    21300054: spritesheet_zero_27
+    21300056: spritesheet_zero_28
+    21300058: spritesheet_zero_29
+    21300060: spritesheet_zero_30
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet_zero_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 926
+        width: 924
+        height: 1120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_1
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 934
+        width: 1013
+        height: 1112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_2
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1909
+        width: 103
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_3
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1739
+        width: 101
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_4
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1596
+        width: 98
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 695
+        width: 329
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_6
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 695
+        width: 329
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_7
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 880
+        width: 180
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_8
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 704
+        width: 164
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_9
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 704
+        width: 161
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_10
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 704
+        width: 186
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_11
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 696
+        width: 188
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_12
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 703
+        width: 329
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_13
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 798
+        width: 180
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_14
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 664
+        width: 759
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_15
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 472
+        width: 329
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 174
+        width: 484
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_17
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 180
+        width: 491
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_18
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 516
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_19
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 523
+        width: 119
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_20
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 320
+        width: 149
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_21
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 180
+        width: 131
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 105
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_23
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 8
+        width: 109
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_24
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 10
+        width: 127
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_25
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 13
+        width: 137
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_26
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 10
+        width: 36
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_27
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 8
+        width: 156
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_28
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 28
+        width: 152
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_29
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 28
+        width: 149
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_zero_30
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 28
+        width: 149
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
